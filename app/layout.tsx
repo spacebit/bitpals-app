@@ -5,7 +5,7 @@ import { Providers } from "./providers";
 function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>  
+      <body>
         <Providers>{children}</Providers>
       </body>
     </html>

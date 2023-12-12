@@ -1,4 +1,4 @@
-import { ConnectButton } from "@rainbow-me/rainbowkit";
+import AppConnectButton from "../components/AppConnectButton";
 
 function Page() {
   return (
@@ -9,12 +9,7 @@ function Page() {
         padding: 12,
       }}
     >
-      <ConnectButton
-        accountStatus={"full"}
-        chainStatus={"full"}
-        showBalance={true}
-        label="Connect"
-      />
+      <AppConnectButton />
     </div>
   );
 }
