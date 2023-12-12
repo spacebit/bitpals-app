@@ -4,7 +4,7 @@ export default function AppConnectButton() {
   return (
     <ConnectButton
       accountStatus={"address"}
-      chainStatus={"none"}
+      chainStatus={"icon"}
       showBalance={false}
       label="Connect"
     />
